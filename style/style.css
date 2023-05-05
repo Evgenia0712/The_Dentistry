@@ -1,1 +1,25 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main__block-8 {
+  display: flex;
+  flex-direction: column;
+}
+.main__block-8 .block-8__rewards {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  -moz-column-gap: 3vw;
+       column-gap: 3vw;
+}
+
+.rewards {
+  height: 30vh;
+  width: 25vw;
+}/*# sourceMappingURL=style.css.map */
