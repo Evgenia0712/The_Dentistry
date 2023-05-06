@@ -1,1 +1,43 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main__block-3 {
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 20% 1fr;
+}
+
+.block-3__cards {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 15% 15%;
+  grid-template-rows: 40% 40%;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+  row-gap: 2vh;
+  padding-left: 10vw;
+}
+.block-3__cards .cards__item {
+  background-color: FBFBFB;
+  display: grid;
+  grid-template-columns: 65%;
+  grid-template-rows: 50% 1fr;
+  row-gap: 1vh;
+  text-align: center;
+  padding-left: 3vw;
+}
+.block-3__cards .cell_6 {
+  grid-column: 2/3;
+}
+
+.item__img {
+  height: 13vh;
+  padding-top: 2vh;
+}/*# sourceMappingURL=style.css.map */
