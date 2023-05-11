@@ -8,12 +8,25 @@ body {
     padding: 0;
 }
 
-.main__block-3 {
+.cards {
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 65%;
+    grid-template-rows: 62% 1fr;
+    row-gap: 1vh;
+    text-align: center;
+}
+
+.block-3 {
     height: 70vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 20% 1fr;
     border: 1px solid black;
+}
+
+.main__block-3 {
+    margin: 0 1vw 0 1vw;
 
     .block-3__text-info {
         width: 20vw;
@@ -31,23 +44,16 @@ body {
     border: 1px solid black;
 
     .block-3__cards {
-        background-color: FBFBFB;
-        display: grid;
-        grid-template-columns: 65%;
-        grid-template-rows: 62% 1fr;
-        row-gap: 1vh;
-        text-align: center;
+        padding-top: 2vh;
         padding-left: 3vw;
         border: 1px solid black;
     }
-
-    .cell_6 {
-        grid-column: 2/3;
-    }
 }
 
-.cards__wr-img {
-    height: 13vh;
-    padding-top: 2vh;
-    border: 1px solid black;
+.block-3__cards:nth-child(6) {
+    grid-column: 2/3;
+}
+
+.block-3__cards:hover {
+    background-color: rgb(110, 194, 243);
 }
