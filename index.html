@@ -11,319 +11,326 @@
 </head>
 
 <body>
+
     <header class="header">
-        <div>
-            <a href="#" class="header__logo logo"><img src="./assets/images/logo_MD.svg" alt=""></a>
+        <div class="header__logo logo">
+            <a href="#" class="logo__link"><img src="./assets/images/logo_MD.svg" alt="" class="logo__img"></a>
         </div>
-        <div class="header_social">
-            <a href="#" class="social__socials socials"><img src="./assets/images/icon_g.svg" alt=""></a>
-            <a href="#" class="social__socials socials"><img src="./assets/images/icon_inst.svg" alt=""></a>
-            <a href="#" class="social__socials socials"><img src="./assets/images/icon_in.svg" alt=""></a>
+        <div class="header_socials socials">
+            <a href="#" class="socials__link"><img src="./assets/images/icon_g.svg" alt="" class="socials__img"></a>
+            <a href="#" class="socials__link"><img src="./assets/images/icon_inst.svg" alt="" class="socials__img"></a>
+            <a href="#" class="socials__link"><img src="./assets/images/icon_in.svg" alt="" class="socials__img"></a>
         </div>
-        <nav class="header__nav">
-            <a href="about">О наc</a>
-            <a href="services">Уcлуги</a>
-            <a href="specialists">Cпециалиcты</a>
-            <a href="patients">Пациентам</a>
-            <a href="contacts">Контакты</a>
+        <nav class="header__nav nav">
+            <a href="about" class="nav__link">О наc</a>
+            <a href="#Services" class="nav__link">Уcлуги</a>
+            <a href="#Specialists" class="nav__link">Cпециалиcты</a>
+            <a href="#For_patients" class="nav__link">Пациентам</a>
+            <a href="contacts" class="nav__link">Контакты</a>
         </nav>
         <address class="header__address">
-            <div class="address__icon-location"><img src="./assets/images/icon_location.svg" alt=""> </div>
-            <p>Чебокcары,Энтузиаcтов 1А</p>
+            <div class="header__icon-location">
+                <img src="./assets/images/icon_location.svg" alt="" class="header__icon-location-img">
+            </div>
+            <p class="header__location-text">Чебокcары,Энтузиаcтов 1А</p>
         </address>
-        <div>
-            <div>
-                <img src="./assets/images/calendar.svg" alt="">
+        <div class="header__work-schedule">
+            <div class="header__icon-calendar">
+                <img src="./assets/images/calendar.svg" alt="" class="header__icon-calendar-img">
             </div>
-            <div>
-                <p>c 9.00-20.00</p>
+            <div class="header__time">
+                <p class="header__time-text">c 9.00-20.00</p>
             </div>
-            <div>
-                <p>пн.-сб.</p>
+            <div class="header__calendar-day">
+                <p class="header__calendar-day-text">пн.-сб.</p>
             </div>
         </div>
-        <div>
-            <div>
-                <img src="./assets/images/phone.svg" alt="">
+        <div class="header__phone">
+            <div class="header__icon-phone">
+                <img src="./assets/images/phone.svg" alt="" class="header__icon-phone-img">
             </div>
-            <a href="tel:+79003331040">+7 900 333 10 40</a>
+            <a href="tel:+79003331040" class="header__phone-link">+7 900 333 10 40</a>
         </div>
-        <button>Заказать звонок</button>
+        <button class="header__button button">Заказать звонок</button>
     </header>
+
     <main class="main">
-        <section class="main__block-2">
-            <div>
-                <div>
-                    <p>&#8212;Стоматология в Чебоксарах</p>
-                    <h2>Лечение зубов в тот же день</h2>
-                    <p>
+        <section class="main__block-2 block-2">
+            <div class="block-2__dental-treatment">
+                <div class="block-2__info">
+                    <p class="block-2__text">&#8212;Стоматология в Чебоксарах</p>
+                    <h2 class="block-2__title title">Лечение зубов в тот же день</h2>
+                    <p class="block-2__text-info text-info">
                         Мы проведем полную консультацию, профессиональную гигиену полости
                         рта, лечение зубов и десен
                     </p>
-                    <button>Записаться на приём</button>
+                    <button class="block-2__button button">Записаться на приём</button>
                 </div>
-                <div>
-                    <div>
-                        <img src="assets/images/b2_specialists.svg" alt="">
-                        <p>Команда квалифицированных специалистов</p>
+                <div class="block-2__more-details">
+                    <div class="block-2__details details">
+                        <img src="assets/images/b2_specialists.svg" alt="" class="details__img">
+                        <p class="details__text">Команда квалифицированных специалистов</p>
                     </div>
-                    <div>
-                        <img src="assets/images/b2_chair.svg" alt="">
-                        <p>3 стоматологических кабинета</p>
+                    <div class="block-2__details details">
+                        <img src="assets/images/b2_chair.svg" alt="" class="details__img">
+                        <p class="details__text">3 стоматологических кабинета</p>
                     </div>
-                    <div>
-                        <img src="assets/images/b2_location.svg" alt="">
-                        <p>Удобное расположение</p>
+                    <div class="block-2__details details">
+                        <img src="assets/images/b2_location.svg" alt="" class="details__img">
+                        <p class="details__text">Удобное расположение</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="main__block-3">
-            <h2 class="block-3__title">Услуги</h2>
-            <p class="block-3__text">
+        <section class="main__block-3 block-3" id="Services">
+            <h2 class="block-3__title title">Услуги</h2>
+            <p class="block-3__text-info text-info">
                 Мы постарались сделать прайс,максимально простым и понятным.
             </p>
-            <div class="block-3__cards">
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/tooth.svg" alt="">
+            <div class="block-3__wr-cards">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/tooth.svg" alt="" class="cards__img">
                     </div>
-                    <div>Лечение зубов</div>
+                    <div class="cards__wr-title">Лечение зубов</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/hygiene.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/hygiene.svg" alt="" class="cards__img">
                     </div>
-                    <div>Гигиена</div>
+                    <div class="cards__wr-title">Гигиена</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/braces.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/braces.svg" alt="" class="cards__img">
                     </div>
-                    <div>Брекеты</div>
+                    <div class="cards__wr-title">Брекеты</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/pediatrics.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/pediatrics.svg" alt="" class="cards__img">
                     </div>
-                    <div>Детская стоматология</div>
+                    <div class="cards__wr-title">Детская стоматология</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/implant.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/implant.svg" alt="" class="cards__img">
                     </div>
-                    <div>Импланты</div>
+                    <div class="cards__wr-title">Импланты</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/veneers.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/veneers.svg" alt="" class="cards__img">
                     </div>
-                    <div>Виниры</div>
+                    <div class="cards__wr-title">Виниры</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/crowns.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/crowns.svg" alt="" class="cards__img">
                     </div>
-                    <div>Коронки</div>
+                    <div class="cards__wr-title">Коронки</div>
                 </div>
-                <div class="cards__item card">
-                    <div>
-                        <img src="./assets/images/surgery.svg" alt="">
+                <div class="block-3__cards cards">
+                    <div class="cards__wr-img">
+                        <img src="./assets/images/surgery.svg" alt="" class="cards__img">
                     </div>
-                    <div>Хирургия</div>
+                    <div class="cards__wr-title">Хирургия</div>
                 </div>
             </div>
         </section>
-        <section class="main__block-4">
-            <h2 class="block-4__title">Нам доверяют пациенты</h2>
-            <div class="block-4__item">
-                <div class="block-4__elem">
-                    <h2>1</h2>
-                    <h3>Честные цены, без хитрых уловок</h3>
-                    <p>Фиксируем цены в плане лечения, не повышаем в процессе.</p>
+        <section class="main__block-4 block-4">
+            <h2 class="block-4__title title">Нам доверяют пациенты</h2>
+            <div class="block-4__wr-items">
+                <div class="block-4__items items">
+                    <h2 class="items__figure">1</h2>
+                    <h3 class="items__title">Честные цены, без хитрых уловок</h3>
+                    <p class="items__text">Фиксируем цены в плане лечения, не повышаем в процессе.</p>
                 </div>
-                <div class="block-4__elem">
-                    <h2>2</h2>
-                    <h3>Опытные Врачи</h3>
-                    <p>
+                <div class="block-4__items items">
+                    <h2 class="items__figure">2</h2>
+                    <h3 class="items__title">Опытные Врачи</h3>
+                    <p class="items__text">
                         Врачи постоянно совершенствуются в своей специальности, несмотря
                         на богатый опыт работы.
                     </p>
                 </div>
-                <div class="block-4__elem">
-                    <h2>3</h2>
-                    <h3>Комфортные условия</h3>
-                    <p>
+                <div class="block-4__items items">
+                    <h2 class="items__figure">3</h2>
+                    <h3 class="items__title">Комфортные условия</h3>
+                    <p class="items__text">
                         Уютная обстановка и отзывчивый персонал сделают поход к
                         стоматологу максимально приятным.
                     </p>
                 </div>
             </div>
         </section>
-        <section class="main__block-5">
-            <div class="block-5__box">
+        <section class="main__block-5 block-5">
+            <div class="block-5__wrapper">
                 <h2 class="block-5__title title">
                     При фиксации брекетов на обе челюсти получи сертификат на 7000
                     рублей
                 </h2>
-                <p>
+                <p class="block-5__text">
                     Укажите cвой номер телефона, мы перезвоним и подберем для вас
                     удобное время для консультации. Или позвоните нам сами —
-                    <a href="tel:+79003331040">+7 900 333 10 40</a>
+                    <a href="tel:+79003331040" class="block-5__link-phone">+7 900 333 10 40</a>
                 </p>
-                <form class="form" action="">
+                <form class="block-5__form form" action="">
                     <input class="form__input" type="tel" placeholder="Телефон">
-                    <button class="form__button">Записаться на прием</button>
+                    <button class="form__button button">Записаться на прием</button>
                 </form>
-                <p>
+                <p class="block-5__approval">
                     Записываясь на услугу вы даёте согласие на
-                    <a href="#">обработку своих персональных данных</a>
+                    <a href="#" class="block-5__approval-link">обработку своих персональных данных</a>
                 </p>
             </div>
-            <div>
-                <img src="./assets/images/woman-dentist_block-5_696.png" alt="">
+            <div class="block-5__pictures pictures">
+                <img src="./assets/images/woman-dentist_block-5_696.png" alt="" class="pictures__img">
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Лечение у нас</h2>
-                <p>
+        <section class="main__block-6 block-6" id="For_patients">
+            <div class="block-6__part-1">
+                <h2 class="block-6__title title">Лечение у нас</h2>
+                <p class="block-6__text-info text-info">
                     Просто и безболезненно, с предоставлением всего спектра
                     стоматологических услуг
                 </p>
             </div>
-            <div>
-                <div>
-                    <div>
-                        <img src="./assets/images/logo_MD.svg" alt="">
-                        <p>клиника</p>
+            <div class="block-6__part-2 part-2">
+                <div class="part-2__side-1">
+                    <div class="part-2__logo logo">
+                        <img src="./assets/images/logo_MD.svg" alt="" class="logo__img">
+                        <p class="part-2__text">клиника</p>
                     </div>
-                    <div>
-                        <p>
+                    <div class="part-2__information">
+                        <p class="part-2__information-text">
                             предоставляет весь спектр стоматологических услуг таких как :
                         </p>
                     </div>
-                    <div>
-                        <div>
-                            <p>Терапия</p>
+                    <div class="part-2__wr-services">
+                        <div class="part-2__services services">
+                            <p class="services__item">Терапия</p>
                         </div>
-                        <div>
-                            <p>Хирургия</p>
+                        <div class="part-2__services services">
+                            <p class="services__item">Хирургия</p>
                         </div>
-                        <div>
-                            <p>Ортодонтия</p>
+                        <div class="part-2__services services">
+                            <p class="services__item">Ортодонтия</p>
                         </div>
-                        <div>
-                            <p>Детская стоматология</p>
+                        <div class="part-2__services services">
+                            <p class="services__item">Детская стоматология</p>
                         </div>
-                        <div>
-                            <p>Ортопедия</p>
+                        <div class="part-2__services services">
+                            <p class="services__item">Ортопедия</p>
                         </div>
                     </div>
-                    <div>
-                        <p>
+                    <div class="part-2__information">
+                        <p class="part-2__information-text">
                             Приоритетным направлением является восстановление функциональных
                             возможностей зубочелюстной системы и профилактика заболевания
                             полости рта.
                         </p>
                     </div>
-                    <div>
-                        <img src="./assets/images/Voxel.png" alt="">
-                        <img src="./assets/images/Ortholight.png" alt="">
-                        <img src="./assets/images/Rocada-med.png" alt="">
+                    <div class="part-2__partners partners">
+                        <img src="./assets/images/Voxel.png" alt="" class="partners__img">
+                        <img src="./assets/images/Ortholight.png" alt="" class="partners__img">
+                        <img src="./assets/images/Rocada-med.png" alt="" class="partners__img">
                     </div>
                 </div>
-                <div>
-                    <img src="./assets/images/satisfied_patient.jpg" alt="satisfied_patient" />
+                <div class="block-6__side-2">
+                    <img src="./assets/images/satisfied_patient.jpg" alt="satisfied_patient" class="block-6__foto">
                 </div>
             </div>
         </section>
-        <section class="main__block-7">
-            <h2 class="block-7__title">Специалисты</h2>
-            <p class="block-7__text">Просто и безболезненно, с предоставлением всего спектра стоматологических услуг</p>
-            <div class="card_1">
-                <h3>Шац Дарья Сергеевна</h3>
-                <p>Директор, Главный врач, Врач ортодонт Стаж работы 11 лет</p>
-                <img src="./assets/images/Woman_dentist_Block7.png" alt="woman-doctor">
+        <section class="main_block7 block7" id="Specialists">
+            <h2 class="block-7__title title">Специалисты</h2>
+            <p class="block-7__text-info text-info">Просто и безболезненно, с предоставлением всего спектра
+                стоматологических услуг</p>
+            <div class="block-7__cards-info cards-info">
+                <h3 class="cards-info__name">Шац Дарья Сергеевна</h3>
+                <p class="cards-info__description">Директор, Главный врач , Врач ортодонт Стаж работы 11 лет</p>
+                <img src="./assets/images/Woman_dentist_Block7.png" alt="woman-doctor" class="cards-info__img">
             </div>
-            <div class="card_2">
-                <h3>Оленина Марина Николаевна</h3>
-                <p>Зам директора, Врач стоматолог терапевт Стаж работы более 25 лет</p>
-                <img src="./assets/images/Woman_dentist_Block7.png" alt="woman-doctor">
+            <div class="block-7__cards-info cards-info">
+                <h3 class="cards-info__name">Оленина Марина Николаевна</h3>
+                <p class="cards-info__description">Зам директора, Врач стоматолог терапевт Стаж работы более 25 лет</p>
+                <img src="./assets/images/Woman_dentist_Block7.png" alt="woman-doctor" class="cards-info__img">
             </div>
-            <div class="card_3">
-                <h3>Лыщиков Павел Анатольевич</h3>
-                <p>Врач стоматолог ортопед, хирург-имплантолог Стаж работы 11 лет</p>
-                <img src="./assets/images/dentist_man__block_7.png" alt="man-doctor">
+            <div class="block-7__cards-info cards-info">
+                <h3 class="cards-info__name">Лыщиков Павел Анатольевич</h3>
+                <p class="cards-info__description">Врач стоматолог ортопед, хирург-имплантолог Стаж работы 11 лет</p>
+                <img src="./assets/images/dentist_man__block_7.png" alt="man-doctor" class="cards-info__img">
             </div>
-            <div class="card_4">
-                <h3>Жирнов Дмитрий Александрович</h3>
-                <p>Врач стоматолог ортопед, хирург-имплантолог Стаж работы более 10 лет</p>
-                <img src="./assets/images/dentist_man__block_7.png" alt="man-doctor">
+            <div class="block-7__cards-info cards-info">
+                <h3 class="cards-info__name">Жирнов Дмитрий Александрович</h3>
+                <p class="cards-info__description">Врач стоматолог ортопед, хирург-имплантолог Стаж работы более 10 лет
+                </p>
+                <img src="./assets/images/dentist_man__block_7.png" alt="man-doctor" class="cards-info__img">
             </div>
-            <div class="card_5">
-                <h3>Терушкина Елена Дмитриевна</h3>
-                <p>Врач стоматолог детский Стаж работы более 10 лет</p>
-                <img src="./assets/images/Woman_dentist_Block7.png" alt="woman-doctor">
-        </section>
-        <section class="main__block-8">
-            <h2 class="block-8__title">Сертификаты, награды, дипломы</h2>
-            <div class="block-8__rewards">
-                <div>
-                    <img class="rewards" src="./assets/images/certificate.jpg" alt="certificat">
-                </div>
-                <div>
-                    <img class="rewards" src="./assets/images/certificate.jpg" alt="certificat">
-                </div>
-                <div>
-                    <img class="rewards" src="./assets/images/certificate.jpg" alt="certificat">
-                </div>
+            <div class="block-7__cards-info cards-info">
+                <h3 class="cards-info__name">Терушкина Елена Дмитриевна</h3>
+                <p class="cards-info__description">Врач стоматолог детский Стаж работы более 10 лет</p>
+                <img src="./assets/images/Woman_dentist_Block7.png" alt="woman-doctor" class="cards-info__img">
             </div>
         </section>
-        <section class="main__block-9">
-            <div class="block-9__box">
+        <section class="main__block-8 block-8">
+            <h2 class="block-8__title title">Сертификаты, награды, дипломы</h2>
+            <div class="block-8__wr-rewards">
+                <div class="block-8__rewards rewards">
+                    <img src="./assets/images/certificate.jpg" alt="certificat" class="rewards__picture">
+                </div>
+                <div class="block-8__rewards rewards">
+                    <img src="./assets/images/certificate.jpg" alt="certificat" class="rewards__picture">
+                </div>
+                <div class="block-8__rewards rewards">
+                    <img src="./assets/images/certificate.jpg" alt="certificat" class="rewards__picture">
+                </div>
+            </div>
+        </section>
+        <section class="main__block-9 block-9">
+            <div class="block-9__wrapper">
                 <h2 class="block-9__title title">
                     Онлайн консультация специалиста по аудио и видео связи, Бесплатно.
                 </h2>
-                <p>
+                <p class="block-9__text">
                     Укажите cвой номер телефона, мы перезвоним и подберем для вас
                     удобное время для консультации. Или позвоните нам сами —
-                    <a href="tel:+79003331040">+7 900 333 10 40</a>
+                    <a href="tel:+79003331040" class="block-9__phone-link">+7 900 333 10 40</a>
                 </p>
-                <form class="form" action="">
+                <form class="block-9__form form" action="">
                     <input class="form__input" type="tel" placeholder="Телефон">
-                    <button class="form__button">Записаться на прием</button>
+                    <button class="form__button button">Записаться на прием</button>
                 </form>
-                <p>
+                <p class="block-9__approval">
                     Записываясь на услугу вы даёте согласие на
-                    <a href="#">обработку своих персональных данных</a>
+                    <a href="#" class="block-9__approval-link">обработку своих персональных данных</a>
                 </p>
             </div>
-            <div>
-                <img src="./assets/images/woman-dentist_block-9_696.png" alt="">
+            <div class="block-9__pictures pictures">
+                <img src="./assets/images/woman-dentist_block-9_696.png" alt="" class="pictures__img">
             </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="footer__socials socials">
-            <a href="#" class="socials__img-link"><img src="./assets/images/icon_g.svg" alt=""
-                    class="socials__socials-icon socials-icon"></a>
-            <a href="#" class="socials__img-link"><img src="./assets/images/icon_inst.svg" alt=""
-                    class="socials__socials-icon socials-icon"></a>
-            <a href="#" class="socials__img-link"><img src="./assets/images/icon_in.svg" alt=""
-                    class="socials__socials-icon socials-icon"></a>
+            <a href="#" class="socials__link"><img src="./assets/images/icon_g.svg" alt="" class="socials__img"></a>
+            <a href="#" class="socials__link"><img src="./assets/images/icon_inst.svg" alt="" class="socials__img"></a>
+            <a href="#" class="socials__link"><img src="./assets/images/icon_in.svg" alt="" class="socials__img"></a>
         </div>
         <div class="footer__license">
-            <p>ООО &#171;Дент&#187;, лицензия &#8470;ЛО-86-8681-01868686047 от 13.02.2099</p>
-            <p>&#169; 2018-2021</p>
+            <p class="footer__license-text">ООО &#171;Дент&#187;, лицензия &#8470;ЛО-86-8681-01868686047 от 13.02.2099
+            </p>
+            <p class="footer__license-copy">&#169; 2018-2021</p>
         </div>
-        <div class="footer__policy policy">
-            <a href="#" class="policy__link">Политика в отношении обработки персональных данных</a>
+        <div class="footer__policy">
+            <a href="#" class="footer__policy-link">Политика в отношении обработки персональных данных</a>
         </div>
         <div class="footer__logo logo">
-            <img src="./assets/images/logo_MD.svg" alt="">
+            <img src="./assets/images/logo_MD.svg" alt="" class="logo__img">
         </div>
     </footer>
+
 </body>
 
 </html>
