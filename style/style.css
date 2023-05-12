@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"), local("Lato-Regular"), url(../assets/fonts/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato-Regular.ttf) format("ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Bold"), local("Lato-Bold"), url(../assets/fonts/Lato-Bold.woff2) format("woff2"), url(../assets/fonts/Lato-Bold.woff) format("woff"), url(../assets/fonts/Lato-Bold.ttf) format("ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Arimo";
+  src: local("Arimo Regular"), local("Arimo-Regular"), url(../assets/fonts/Arimo-Regular.woff2) format("woff2"), url(../assets/fonts/Arimo-Regular.woff) format("woff"), url(../assets/fonts/Arimo-Regular.ttf) format("ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Arimo";
+  src: local("Arimo Bold"), local("Arimo-Bold"), url(../assets/fonts/Arimo-Bold.woff2) format("woff2"), url(../assets/fonts/Arimo-Bold.woff) format("woff"), url(../assets/fonts/Arimo-Bold.ttf) format("ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Regular"), local("Roboto-Regular"), url(../assets/fonts/Roboto-Regular.woff2) format("woff2"), url(../assets/fonts/Roboto-Regular.woff) format("woff"), url(../assets/fonts/Roboto-Regular.ttf) format("ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto Light"), local("Roboto-Light"), url(../assets/fonts/Roboto-Light.woff2) format("woff2"), url(../assets/fonts/Roboto-Light.woff) format("woff"), url(../assets/fonts/Roboto-Light.ttf) format("ttf");
+  font-weight: 300;
+}
 * {
   box-sizing: border-box;
 }
