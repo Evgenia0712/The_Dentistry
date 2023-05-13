@@ -1,0 +1,35 @@
+.form__input {
+    background: $clr-bg-bl-5-9-input;
+
+    height: 71px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 27px;
+    border: 2px solid $clr-bg-bl-5-9-input;
+    border-radius: 5px;
+
+    color: $color-almost-black;
+    font-family: $font-stack-2;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.form__input:focus {
+    outline: none;
+    border: 2px solid $color-accent;
+    border-radius: 5px;
+}
+
+.form__input::placeholder {
+    transition: 0.5s;
+    color: $color-light-gray;
+    font-family: $font-stack-2;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.form__input:focus::placeholder { 
+    font-size: 18px; /* Размер шрифта */
+    transform: translateY(-20px); /* Сдвигаем подсказку вверх */
+}

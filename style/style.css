@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "Lato";
   src: local("Lato Regular"), local("Lato-Regular"), url(../assets/fonts/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato-Regular.ttf) format("ttf");
@@ -28,6 +29,53 @@
   src: local("Roboto Light"), local("Roboto-Light"), url(../assets/fonts/Roboto-Light.woff2) format("woff2"), url(../assets/fonts/Roboto-Light.woff) format("woff"), url(../assets/fonts/Roboto-Light.ttf) format("ttf");
   font-weight: 300;
 }
+.form__input {
+  background: #fefefe;
+  height: 71px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 27px;
+  border: 2px solid #fefefe;
+  border-radius: 5px;
+  color: #262626;
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 2px solid #38bcea;
+  border-radius: 5px;
+}
+
+.form__input::-moz-placeholder {
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+  color: #b2b2b2;
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.form__input::placeholder {
+  transition: 0.5s;
+  color: #b2b2b2;
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+}
+
+.form__input:focus::-moz-placeholder {
+  font-size: 18px; /* Размер шрифта */
+  transform: translateY(-20px); /* Сдвигаем подсказку вверх */
+}
+
+.form__input:focus::placeholder {
+  font-size: 18px; /* Размер шрифта */
+  transform: translateY(-20px); /* Сдвигаем подсказку вверх */
+}
+
 * {
   box-sizing: border-box;
 }
