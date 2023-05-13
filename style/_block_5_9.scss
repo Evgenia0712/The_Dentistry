@@ -1,29 +1,3 @@
-.block-5__wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    
-    padding-left: 123px;
-    
-    background: $grd-bg-bl-5-9-wr;
-    
-}
-
-.main__block-5 {
-    position: relative;
-}
-
-.block-5__pictures {
-    position: absolute;
-    left: 995px;
-    //или можно
-    // right: 173px;
-    bottom: -4px;
-    // Заменить на
-    // bottom: 0px;
-}
-
 .form__input {
     background: $clr-bg-bl-5-9-input;
 
@@ -59,4 +33,10 @@
 .form__input:focus::placeholder { 
     font-size: 18px; /* Размер шрифта */
     transform: translateY(-20px); /* Сдвигаем подсказку вверх */
+}
+
+.form__input:focus:invalid {
+    border: 2px solid #ffb493;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ffb493;
 }
