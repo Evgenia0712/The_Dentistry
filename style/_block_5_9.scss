@@ -1,3 +1,29 @@
+.block-5__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding-left: 123px;
+    
+    background: $grd-bg-bl-5-9-wr;
+    
+}
+
+.main__block-5 {
+    position: relative;
+}
+
+.block-5__pictures {
+    position: absolute;
+    left: 995px;
+    //или можно
+    // right: 173px;
+    bottom: -4px;
+    // Заменить на
+    // bottom: 0px;
+}
+
 .form__input {
     background: $clr-bg-bl-5-9-input;
 
@@ -19,6 +45,7 @@
     outline: none;
     border: 2px solid $color-accent;
     border-radius: 5px;
+    box-shadow: 0 0 5px 2px $color-accent;
 }
 
 .form__input::placeholder {

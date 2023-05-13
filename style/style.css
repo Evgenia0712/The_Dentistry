@@ -29,6 +29,25 @@
   src: local("Roboto Light"), local("Roboto-Light"), url(../assets/fonts/Roboto-Light.woff2) format("woff2"), url(../assets/fonts/Roboto-Light.woff) format("woff"), url(../assets/fonts/Roboto-Light.ttf) format("ttf");
   font-weight: 300;
 }
+.block-5__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 123px;
+  background: linear-gradient(84.27deg, #E6F2FF 0%, #FAF1ED 100%);
+}
+
+.main__block-5 {
+  position: relative;
+}
+
+.block-5__pictures {
+  position: absolute;
+  left: 995px;
+  bottom: -4px;
+}
+
 .form__input {
   background: #fefefe;
   height: 71px;
@@ -47,6 +66,7 @@
   outline: none;
   border: 2px solid #38bcea;
   border-radius: 5px;
+  box-shadow: 0 0 5px 2px #38bcea;
 }
 
 .form__input::-moz-placeholder {
