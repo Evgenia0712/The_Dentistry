@@ -46,3 +46,29 @@
 .cards-info__img{
 width: 10vw;
 }
+
+.main__block-8{
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    }
+    
+    .block-8__title{
+        padding: 3rem;
+        margin: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 59px;
+        color: #12354B;
+    }
+    .block-8__wr-rewards{
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+        align-content: space-around;
+    }
+    
+    .rewards__picture{
+        width: 30vw;
+    }
