@@ -1,3 +1,10 @@
+.block-5__form {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+}
+
 .form__input {
     background: $clr-bg-bl-5-9-input;
 
