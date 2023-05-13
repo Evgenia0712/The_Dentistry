@@ -83,6 +83,20 @@
   box-shadow: 0 0 5px 2px #ffb493;
 }
 
+.form__button {
+  cursor: pointer;
+  background: #38bcea;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 71px;
+  padding: 20px 34px;
+  font-family: Arimo, sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130.49%;
+}
+
 * {
   box-sizing: border-box;
 }
