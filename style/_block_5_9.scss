@@ -206,8 +206,12 @@
     // Заменить на
     // bottom: 0px;
 
-    @media screen and (max-width: 1759px) {
+    @media screen and (max-width: 1280px) {
         display: none;
+    }
+
+    .pictures__img {
+        width: 36.25vw;
     }
 }
 

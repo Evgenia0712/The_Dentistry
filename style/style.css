@@ -197,10 +197,13 @@
   right: 2.60417vw;
   bottom: -4px;
 }
-@media screen and (max-width: 1759px) {
+@media screen and (max-width: 1280px) {
   .block-9__pictures {
     display: none;
   }
+}
+.block-9__pictures .pictures__img {
+  width: 36.25vw;
 }
 
 .block-9 {
