@@ -41,3 +41,59 @@ body {
   height: 13vh;
   padding-top: 2vh;
 }/*# sourceMappingURL=style.css.map */
+.footer {
+  position: relative;/*относительное позиционирование*/
+    width: 100%;/*на всю ширину*/
+    padding: 20px 10px;/*поля для контента*/
+    display: flex;
+    justify-content: flex-start;/*в центре по горизонтали*/
+    align-items: center;/*в центре по вертикали*/
+    flex-direction: row;
+    margin-top: 100px;/*отступ сверху*/
+}
+.socials  {
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 20px;
+  padding: 8px 10px;
+}
+.socials a {
+  padding: 5px 27px;
+}
+
+.logo  {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 160px;
+  padding: 8px 10px;
+}
+.footer__license {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  width: 644px;
+  height: 44px;
+  margin-left: 244px;
+  margin-right: 58px;
+}
+.footer__license p{
+  display: block;
+  text-align: center;
+  flex-direction: column;
+  line-height: 0px;
+}
+.policy{
+  display: inline-flex;
+  width: 244px;
+  height: 50px;
+  margin-right: 168px;
+  flex-direction: row wrap;
+  margin: 5px;
+  align-items: center
+}
+.policy a {
+  list-style: none;
+  color: #000000;
+}
