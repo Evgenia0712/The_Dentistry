@@ -1,4 +1,4 @@
-# :wave: Hi there, we are a group of students on our way to becoming frontend developers. :seedling:
+# :wave: Hi there, we are a group of students on the path to becoming frontend developers. :seedling:
 
 This is a dental clinic website.
 Our first team training project.
