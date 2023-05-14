@@ -29,6 +29,264 @@
   src: local("Roboto Light"), local("Roboto-Light"), url(../assets/fonts/Roboto-Light.woff2) format("woff2"), url(../assets/fonts/Roboto-Light.woff) format("woff"), url(../assets/fonts/Roboto-Light.ttf) format("ttf");
   font-weight: 300;
 }
+.header {
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.header_social {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 58px;
+  margin-right: 20px;
+  padding: 8px 10px;
+}
+
+.social__socials {
+  margin-right: 2px;
+  padding: 8px 10px;
+}
+
+.header__socials a {
+  padding: 5px 5px;
+}
+
+.header__nav {
+  flex-grow: 1;
+  margin-left: 58px;
+}
+
+.header__nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav li {
+  margin-right: 20px;
+}
+
+.header__nav li:last-child {
+  margin-right: 0;
+}
+
+.header__nav a {
+  padding: 8px 10px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
+.header__nav a:hover {
+  color: #01678A;
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+.header__address {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 22px;
+}
+
+.header__address p {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 150px;
+}
+
+.address__icon-location {
+  margin-right: 2px;
+  width: 14px;
+}
+
+.header__icon-calendar {
+  margin-right: 2px;
+  width: 18px;
+}
+
+.header__work-schedule {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 22px;
+  align-items: baseline;
+}
+
+.header__work-schedule p {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  margin-bottom: 1rem;
+  width: 150px;
+}
+
+.header__time-text {
+  margin-bottom: 1rem;
+  width: 106px;
+}
+
+.header__calendar-day-text {
+  margin-left: -55px;
+  width: 39px;
+  color: #909090;
+}
+
+.header__icon-calendar {
+  margin-right: 2px;
+  width: 14px;
+}
+
+.header__phone {
+  display: inline-flex;
+  align-items: center;
+  margin-left: -50px;
+  margin-right: 22px;
+  align-items: baseline;
+}
+
+.header__phone-link {
+  list-style: none;
+  text-decoration: none;
+  color: #3C3C3C;
+}
+
+.header__icon-phone {
+  margin-right: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+.main__block-2 {
+  width: 100vw;
+  height: 80vh;
+}
+
+.block-2__dental-treatment {
+  width: 92vw;
+  height: 75vh;
+  background: url("/The_Dentistry/assets/images/nurse-posing.jpg") 100vw 100vh;
+}
+
+.block-2__info {
+  width: 25vw;
+  height: 65vh;
+  padding-left: 5vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.block-2__title {
+  margin: 0;
+  color: #1a3444;
+  font-size: 2.5vw;
+}
+
+.block-2__text-info,
+.block-2__text {
+  font-size: 20px;
+  color: #737373;
+}
+
+.block-2__button {
+  width: 17vw;
+  height: 7vh;
+  border: none;
+  color: #fff;
+  background: #38bcea;
+}
+
+.block-2__more-details {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.block-2__details {
+  width: 39.5vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+  -webkit-backdrop-filter: blur(9.5px);
+          backdrop-filter: blur(9.5px);
+}
+
+.block-2__details:nth-child(2) {
+  width: 20vw;
+}
+
+.block-2__details:first-child {
+  justify-content: end;
+}
+
+.block-2__details .details__img {
+  padding: 3%;
+}
+
+.block-2__details .details__text {
+  width: 13vw;
+  color: #737373;
+  font-size: 18px;
+}
+
+.block-2__details .details__text:first-child {
+  width: 15vw;
+}
+
+.main__block-4 {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  background-color: #fbfbfb;
+}
+
+.block-4__title {
+  margin-left: 6.5vw;
+  color: #12354b;
+}
+
+.block-4__wr-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+}
+
+.block-4__items {
+  width: 26vw;
+  height: 17vw;
+  padding-left: 2vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.block-4__items .items__figure {
+  color: #38bcea;
+}
+
+.block-4__items .items__title,
+.block-4__items .items__text {
+  color: #262626;
+}
+
 .cards {
   background-color: rgb(221, 218, 218);
   display: grid;
@@ -36,6 +294,7 @@
   grid-template-rows: 62% 1fr;
   row-gap: 1vh;
   text-align: center;
+}
 
 .block-3 {
   height: 70vh;
@@ -73,6 +332,72 @@
   background-color: rgb(110, 194, 243);
 }
 
+.block-6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25% 1fr;
+}
+
+.part-2 {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  -moz-column-gap: 5vw;
+       column-gap: 5vw;
+}
+.part-2 .part-2__information-text {
+  width: 30vw;
+}
+
+.services {
+  text-align: center;
+  background-color: #f9f9f9;
+  max-width: 20vw;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  max-width: 31vw;
+}
+
+.main__block-6 {
+  margin: 0 1vw 0 1vw;
+}
+.main__block-6 .block-6__text-info {
+  width: 22vw;
+}
+
+.part-2__wr-services {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: 45% 45%;
+  row-gap: 1vh;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
+}
+
+.part-2__services:nth-child(4) {
+  grid-column: 1/3;
+}
+
+.partners__img {
+  width: 11vw;
+  height: 8vh;
+}
+
+.partners__img_shape {
+  width: 6vw;
+  height: 8vh;
+}
+
+.block-6__foto {
+  max-width: 45vw;
+  max-height: 56vh;
+}
+
+.block-6__title {
+  font-family: Roboto, sans-serif;
+}
 
 .main__block-5 {
   margin: 7.03125vw 0 7.8125vw 0;
@@ -220,72 +545,6 @@
   font-size: 1.25vw;
   line-height: 130.49%;
 }
-  .block-6 {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 25% 1fr;
-}
-
-.part-2 {
-  display: grid;
-  grid-template-columns: 40% 1fr;
-  -moz-column-gap: 5vw;
-       column-gap: 5vw;
-}
-.part-2 .part-2__information-text {
-  width: 30vw;
-}
-
-.services {
-  text-align: center;
-  background-color: #f9f9f9;
-  max-width: 20vw;
-}
-
-.partners {
-  display: flex;
-  justify-content: space-between;
-  max-width: 31vw;
-}
-
-.main__block-6 {
-  margin: 0 1vw 0 1vw;
-}
-.main__block-6 .block-6__text-info {
-  width: 22vw;
-}
-
-.part-2__wr-services {
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
-  grid-template-rows: 45% 45%;
-  row-gap: 1vh;
-  -moz-column-gap: 1vw;
-       column-gap: 1vw;
-}
-
-.part-2__services:nth-child(4) {
-  grid-column: 1/3;
-}
-
-.partners__img {
-  width: 11vw;
-  height: 8vh;
-}
-
-.partners__img_shape {
-  width: 6vw;
-  height: 8vh;
-}
-
-.block-6__foto {
-  max-width: 45vw;
-  max-height: 56vh;
-}
-
-.block-6__title {
-  font-family: Roboto, sans-serif;
-}
 
 .main__block-9 {
   margin: 7.03125vw 0 0 0;
@@ -358,10 +617,90 @@
   text-decoration: underline;
 }
 
+.block-7__title {
+  padding-left: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+}
+
+.block-7__text-info {
+  padding-left: 3rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.block-7__wr-cards-info {
+  padding: 5%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.block-7__cards-info {
+  display: flex;
+  justify-content: space-around;
+  max-width: 30vw;
+  background: linear-gradient(255.02deg, #F7F8FA -0.59%, #EFF0F4 100%);
+  box-shadow: 0px 13px 50px rgba(192, 192, 192, 0.2);
+  border-radius: 4px;
+}
+
+.cards-info__text {
+  padding: 3rem;
+  font-style: normal;
+}
+
+.cards-info__name {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.cards-info__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.cards-info__img {
+  width: 10vw;
+}
+
+.main__block-8 {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+.block-8__title {
+  padding: 3rem;
+  margin: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 59px;
+  color: #12354B;
+}
+
+.block-8__wr-rewards {
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  align-content: space-around;
+}
+
+.rewards__picture {
+  width: 30vw;
+}
+
 * {
   box-sizing: border-box;
 }
-  
 
 html,
 body {

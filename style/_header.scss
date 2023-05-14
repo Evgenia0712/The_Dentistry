@@ -1,0 +1,144 @@
+.header {
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+
+}
+
+.header_social {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 58px;
+    margin-right: 20px;
+    padding: 8px 10px;
+}
+
+.social__socials {
+    margin-right: 2px;
+    padding: 8px 10px;
+}
+
+.header__socials a {
+    padding: 5px 5px;
+}
+
+.header__nav {
+    flex-grow: 1;
+    margin-left: 58px;
+}
+
+.header__nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav li {
+    margin-right: 20px;
+}
+
+.header__nav li:last-child {
+    margin-right: 0;
+}
+
+.header__nav a {
+    padding: 8px 10px;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.header__nav a:hover {
+    color: #01678A;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.header__address {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 22px;
+}
+
+.header__address p {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+
+}
+
+.address__icon-location {
+    margin-right: 2px;
+    width: 14px;
+
+}
+
+.header__icon-calendar {
+    margin-right: 2px;
+    width: 18px;
+
+}
+
+.header__work-schedule {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 22px;
+    align-items: baseline;
+}
+
+.header__work-schedule p {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    width: 150px;
+
+}
+
+.header__time-text {
+    margin-bottom: 1rem;
+    width: 106px;
+
+}
+
+.header__calendar-day-text {
+    margin-left: -55px;
+    width: 39px;
+
+    color: #909090;
+}
+
+.header__icon-calendar {
+    margin-right: 2px;
+    width: 14px;
+
+}
+
+.header__phone {
+    display: inline-flex;
+    align-items: center;
+    margin-left: -50px;
+    margin-right: 22px;
+    align-items: baseline;
+}
+
+.header__phone-link {
+    list-style: none;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.header__icon-phone {
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+}
