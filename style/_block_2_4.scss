@@ -1,0 +1,119 @@
+.main__block-2 {
+  width: 100vw;
+  height: 80vh;
+}
+
+.block-2__dental-treatment {
+  width: 92vw;
+  height: 75vh;
+  background: url("/The_Dentistry/assets/images/nurse-posing.jpg") 100vw 100vh;
+}
+
+.block-2__info {
+  width: 25vw;
+  height: 65vh;
+  padding-left: 5vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.block-2__title {
+  margin: 0;
+  color: #1a3444;
+  font-size: 48px;
+}
+
+.block-2__text-info,
+.block-2__text {
+  font-size: 20px;
+  color: #737373;
+}
+
+.block-2__button {
+  width: 17vw;
+  height: 7vh;
+  border: none;
+  color: #fff;
+  background: #38bcea;
+}
+
+.block-2__more-details {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.block-2__details {
+  width: 39.5vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: center;
+  backdrop-filter: blur(9.5px);
+}
+
+.block-2__details:nth-child(2) {
+  width: 20vw;
+}
+
+.block-2__details:first-child {
+  justify-content: end;
+}
+
+.block-2__details .details__img {
+  padding: 3%;
+}
+
+.block-2__details .details__text {
+  width: 13vw;
+  color: #737373;
+  font-size: 18px;
+}
+
+.block-2__details .details__text:first-child {
+  width: 15vw;
+}
+
+.main__block-4 {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  background-color: #fbfbfb;
+}
+
+.block-4__title {
+  margin-left: 6.5vw;
+  color: #12354b;
+}
+
+.block-4__wr-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 6.5vw;
+  margin-right: 6.5vw;
+}
+
+.block-4__items {
+  width: 26vw;
+  height: 17vw;
+  padding-left: 2vw;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.block-4__items .items__figure {
+  color: #38bcea;
+}
+
+.block-4__items .items__title,
+.block-4__items .items__text {
+  color: #262626;
+}
