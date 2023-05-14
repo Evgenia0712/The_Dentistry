@@ -1,7 +1,7 @@
 //Блок 5
 
 .main__block-5 {
-    margin: 135px 0 150px 0;
+    margin: 8.4375rem 0 9.375rem 0;
     position: relative;
 }
 
@@ -11,10 +11,10 @@
     justify-content: space-between;
     align-items: flex-start;
     
-    padding-top: 63px;
-    padding-bottom: 63px;
+    padding-top: 3.9375rem;
+    padding-bottom: 3.9375rem;
 
-    padding-left: 123px;
+    padding-left: 7.6875rem;
     
     background: $grd-bg-bl-5-9-wr;
 
@@ -25,7 +25,7 @@
     position: absolute;
     // left: 995px;
     //или можно
-    right: 50px;
+    right: 3.125rem;
     bottom: -4px;
     // Заменить на
     // bottom: 0px;
@@ -36,13 +36,13 @@
 }
 
 .block-5 {
-    height: 563px;
+    height: 35.1875rem;
     width: 100%;
     display: flex;
     
     &__title {
-        font-size: 48px;
-        line-height: 58px;
+        font-size: 3rem;
+        line-height: 3.625rem;
     
         font-family: $font-stack-1;
         font-weight: bold;
@@ -51,7 +51,7 @@
         //Почему-то эта строчка в style.css компилиреутся сверху под
         // @charset "UTF-8";
 
-        width: 1130px;
+        width: 70.625rem;
         // width: 967px;
     }
 
@@ -59,14 +59,14 @@
         font-family: $font-stack-2;
         font-weight: normal;
 
-        font-size: 24px;
+        font-size: 1.5rem;
         line-height: 130.49%;
 
         /* or 31px */
 
         color: $color-almost-black;
 
-        width: 533px;
+        width: 33.3125rem;
     }
 
     &__phone-link {
@@ -82,7 +82,7 @@
         font-family: $font-stack-2;
         font-weight: normal;
 
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 130.49%;
         
         /* or 23px */
@@ -103,28 +103,28 @@
 .form {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: space-between;
 
-    width: 725px;
+    width: 45.3125rem;
     // width: 580px;
 }
 
 .form__input {
     background: $clr-bg-bl-5-9-input;
 
-    height: 71px;
+    height: 4.4375rem;
     
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 27px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1.6875rem;
     border: 2px solid $clr-bg-bl-5-9-input;
     border-radius: 5px;
 
     color: $color-almost-black;
     font-family: $font-stack-2;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .form__input:focus {
@@ -139,12 +139,12 @@
     color: $color-light-gray;
     font-family: $font-stack-2;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .form__input:focus::placeholder { 
-    font-size: 18px; /* Размер шрифта */
-    transform: translateY(-20px); /* Сдвигаем подсказку вверх */
+    font-size: 1.125rem; /* Размер шрифта */
+    transform: translateY(-1.25rem); /* Сдвигаем подсказку вверх */
 }
 
 .form__input:focus:invalid {
@@ -161,14 +161,14 @@
     border: none;
     border-radius: 5px;
 
-    height: 71px;
+    height: 4.4375rem;
 
-    padding: 20px 34px;
+    padding: 1.25rem 2.125rem;
 
     font-family: $font-stack-2;
     font-weight: bold;
 
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 130.49%;
 }
 
