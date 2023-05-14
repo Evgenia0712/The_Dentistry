@@ -1,8 +1,113 @@
-.block-5__form {
+//Блок 5
+
+.main__block-5 {
+    margin: 135px 0 150px 0;
+    position: relative;
+}
+
+.block-5__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding-top: 63px;
+    padding-bottom: 63px;
+
+    padding-left: 123px;
+    
+    background: $grd-bg-bl-5-9-wr;
+
+    width: 100%;    
+}
+
+.block-5__pictures {
+    position: absolute;
+    // left: 995px;
+    //или можно
+    right: 50px;
+    bottom: -4px;
+    // Заменить на
+    // bottom: 0px;
+
+    @media screen and (max-width: 1759px) {
+        display: none;
+    }
+}
+
+.block-5 {
+    height: 563px;
+    width: 100%;
+    display: flex;
+    
+    &__title {
+        font-size: 48px;
+        line-height: 58px;
+    
+        font-family: $font-stack-1;
+        font-weight: bold;
+        color: $color-title;
+        // @extend %title;
+        //Почему-то эта строчка в style.css компилиреутся сверху под
+        // @charset "UTF-8";
+
+        width: 1130px;
+        // width: 967px;
+    }
+
+    &__text {
+        font-family: $font-stack-2;
+        font-weight: normal;
+
+        font-size: 24px;
+        line-height: 130.49%;
+
+        /* or 31px */
+
+        color: $color-almost-black;
+
+        width: 533px;
+    }
+
+    &__phone-link {
+        color: #0079ff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    &__approval {
+        font-family: $font-stack-2;
+        font-weight: normal;
+
+        font-size: 18px;
+        line-height: 130.49%;
+        
+        /* or 23px */
+        
+        color: $color-gray;
+
+        &-link {
+            color: $color-gray;
+            text-decoration: underline;
+        }
+    }
+}
+
+
+
+//Форма
+
+.form {
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: space-between;
+
+    width: 725px;
+    // width: 580px;
 }
 
 .form__input {
@@ -65,4 +170,102 @@
 
     font-size: 24px;
     line-height: 130.49%;
+}
+
+
+
+//Блок 9
+
+.main__block-9 {
+    margin: 135px 0 0 0;
+    position: relative;
+}
+
+.block-9__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    padding-top: 63px;
+    padding-bottom: 63px;
+
+    padding-left: 123px;
+    
+    background: $grd-bg-bl-5-9-wr;
+
+    width: 100%;    
+}
+
+.block-9__pictures {
+    position: absolute;
+    // left: 995px;
+    //или можно
+    right: 50px;
+    bottom: -4px;
+    // Заменить на
+    // bottom: 0px;
+
+    @media screen and (max-width: 1759px) {
+        display: none;
+    }
+}
+
+.block-9 {
+    height: 563px;
+    width: 100%;
+    display: flex;
+    
+    &__title {
+        font-size: 48px;
+        line-height: 58px;
+    
+        font-family: $font-stack-1;
+        font-weight: bold;
+        color: $color-title;
+        // @extend %title;
+
+        width: 1001px;
+        // width: 892px;
+    }
+
+    &__text {
+        font-family: $font-stack-2;
+        font-weight: normal;
+
+        font-size: 24px;
+        line-height: 130.49%;
+
+        /* or 31px */
+
+        color: $color-almost-black;
+
+        width: 599px;
+    }
+
+    &__phone-link {
+        color: #0079ff;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+    &__approval {
+        font-family: $font-stack-2;
+        font-weight: normal;
+
+        font-size: 18px;
+        line-height: 130.49%;
+        
+        /* or 23px */
+        
+        color: $color-gray;
+
+        &-link {
+            color: $color-gray;
+            text-decoration: underline;
+        }
+    }
 }
