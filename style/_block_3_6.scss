@@ -1,10 +1,11 @@
 .cards {
-    background-color: rgb(221, 218, 218);
+    background-color: $clr-bg-bl-4-6;
     display: grid;
     grid-template-columns: 65%;
     grid-template-rows: 62% 1fr;
     row-gap: 1vh;
     text-align: center;
+    border-radius: 5px;
 }
 
 .block-3 {
@@ -12,10 +13,11 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 20% 1fr;
+    padding-left: 5vw;
 }
 
 .block-3__text-info {
-    width: 20vw;
+    width: 25vw;
 }
 
 .block-3__wr-cards {
@@ -36,19 +38,38 @@
     grid-column: 2/3;
 }
 
+
+//Смена картинки при наведении
+.block-3__cards .cards__img_active {
+    display: none;
+}
+
 .block-3__cards:hover {
-    background-color: rgb(110, 194, 243);
+    background-color: $color-accent;
+    cursor: pointer;
+    .cards__wr-title {
+        color: #ffffff;
+    }
+    
+    .cards__img {
+        display: none;
+    }
+    .cards__img_active {
+        display: inline;
+    }
 }
 
 .block-6 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 1fr;
+    width: 100vw;
+    padding-left: 5vw;
 }
 
 .part-2 {
     display: grid;
-    grid-template-columns: 45% 1fr;
+    grid-template-columns: 35% 1fr;
     column-gap: 5vw;
 
     .part-2__information-text {
