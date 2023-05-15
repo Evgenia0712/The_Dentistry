@@ -846,4 +846,14 @@ body {
   font-weight: bold;
   font-size: 0.9375vw;
   color: #414141;
+}
+
+.header__button {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #ffffff;
+  background: #38bcea;
+  border-radius: 3px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
