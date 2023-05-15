@@ -30,19 +30,23 @@
   font-weight: 300;
 }
 .header {
-  display: inline-flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 5% 10% 30% 10% 20% 8% 10%;
+  grid-template-rows: 15vh;
+  justify-content: start;
   align-items: center;
   margin: auto;
+  border: 1px solid black;
+}
+
+.header__location-text {
+  border: 1px solid black;
 }
 
 .header_social {
   display: flex;
   justify-content: space-around;
-  margin-left: 58px;
-  margin-right: 20px;
-  padding: 8px 10px;
+  border: 1px solid black;
 }
 
 .social__socials {
@@ -50,41 +54,21 @@
   padding: 8px 10px;
 }
 
-.header__socials a {
+.header__socials {
   padding: 5px 5px;
 }
 
 .header__nav {
-  flex-grow: 1;
-  margin-left: 58px;
-}
-
-.header__nav ul {
   display: flex;
   flex-flow: row wrap;
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
-.header__nav li {
-  margin-right: 20px;
-}
-
-.header__nav li:last-child {
-  margin-right: 0;
-}
-
-.header__nav a {
-  padding: 8px 10px;
-}
-
-.header__nav a {
+.nav__link {
   text-decoration: none;
   color: #AAAAAA;
 }
 
-.header__nav a:hover {
+.nav__link {
   color: #01678A;
 }
 
@@ -95,14 +79,7 @@
 .header__address {
   display: inline-flex;
   align-items: center;
-  margin-left: 50px;
-  margin-right: 22px;
-}
-
-.header__address p {
-  padding: 1rem;
-  margin-bottom: 1rem;
-  width: 150px;
+  border: 1px solid black;
 }
 
 .address__icon-location {
@@ -172,9 +149,9 @@
 }
 
 .block-2__dental-treatment {
-  width: 92vw;
   height: 75vh;
-  background: url("/The_Dentistry/assets/images/nurse-posing.jpg") 100vw 100vh;
+  background: url("/assets/images/nurse-posing.jpg");
+  background-size: cover;
 }
 
 .block-2__info {
@@ -340,12 +317,16 @@
 
 .part-2 {
   display: grid;
-  grid-template-columns: 40% 1fr;
+  grid-template-columns: 45% 1fr;
   -moz-column-gap: 5vw;
        column-gap: 5vw;
 }
 .part-2 .part-2__information-text {
   width: 30vw;
+}
+
+.part-2__logo {
+  margin-right: 45vw;
 }
 
 .services {
@@ -699,20 +680,9 @@
 }
 
 .footer {
-  position: relative;
-  /*относительное позиционирование*/
-  width: 100%;
-  /*на всю ширину*/
-  padding: 20px 10px;
-  /*поля для контента*/
   display: flex;
-  justify-content: flex-start;
-  /*в центре по горизонтали*/
+  justify-content: space-around;
   align-items: center;
-  /*в центре по вертикали*/
-  flex-direction: row;
-  margin-top: 100px;
-  /*отступ сверху*/
 }
 
 .socials {
@@ -720,10 +690,8 @@
   justify-content: flex-start;
   margin-right: 20px;
   padding: 8px 10px;
-}
-
-.socials a {
-  padding: 5px 27px;
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
 }
 
 .logo {
@@ -758,11 +726,11 @@
   height: 50px;
   margin-right: 168px;
   flex-direction: row wrap;
-  margin: 5px;
   align-items: center;
+  border: 1px solid black;
 }
 
-.policy a {
+.footer__policy-link {
   list-style: none;
   color: #000000;
 }
@@ -775,4 +743,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 15vh 1fr 15vh;
 }/*# sourceMappingURL=style.css.map */

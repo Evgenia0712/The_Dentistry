@@ -4,9 +4,9 @@
 }
 
 .block-2__dental-treatment {
-  width: 92vw;
   height: 75vh;
-  background: url("/The_Dentistry/assets/images/nurse-posing.jpg") 100vw 100vh;
+  background: url("/assets/images/nurse-posing.jpg");
+  background-size: cover;
 }
 
 .block-2__info {

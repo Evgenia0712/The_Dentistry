@@ -1,18 +1,7 @@
 .footer {
-    position: relative;
-    /*относительное позиционирование*/
-    width: 100%;
-    /*на всю ширину*/
-    padding: 20px 10px;
-    /*поля для контента*/
     display: flex;
-    justify-content: flex-start;
-    /*в центре по горизонтали*/
+    justify-content: space-around;
     align-items: center;
-    /*в центре по вертикали*/
-    flex-direction: row;
-    margin-top: 100px;
-    /*отступ сверху*/
 }
 
 .socials {
@@ -20,10 +9,7 @@
     justify-content: flex-start;
     margin-right: 20px;
     padding: 8px 10px;
-}
-
-.socials a {
-    padding: 5px 27px;
+    column-gap: 1vw;
 }
 
 .logo {
@@ -50,6 +36,7 @@
     text-align: center;
     flex-direction: column;
     line-height: 0px;
+
 }
 
 .policy {
@@ -58,11 +45,11 @@
     height: 50px;
     margin-right: 168px;
     flex-direction: row wrap;
-    margin: 5px;
-    align-items: center
+    align-items: center;
+    border: 1px solid black;
 }
 
-.policy a {
+.footer__policy-link {
     list-style: none;
     color: #000000;
 }

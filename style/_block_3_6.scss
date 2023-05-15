@@ -52,12 +52,16 @@
 
 .part-2 {
     display: grid;
-    grid-template-columns: 40% 1fr;
+    grid-template-columns: 45% 1fr;
     column-gap: 5vw;
 
     .part-2__information-text {
         width: 30vw;
     }
+}
+
+.part-2__logo {
+    margin-right: 45vw;
 }
 
 .services {
