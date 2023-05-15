@@ -782,4 +782,10 @@ body {
   font-weight: bold;
   font-size: 1.35417vw;
   color: #414141;
+}
+
+.items__figure {
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-size: 2.5vw;
 }/*# sourceMappingURL=style.css.map */
