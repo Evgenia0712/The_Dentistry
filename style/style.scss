@@ -68,3 +68,58 @@ body {
     font-weight: normal;
     font-size: 2.5vw;
 }
+
+.nav__link {
+    font-family: $font-stack-3;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: $color-light-gray;
+}
+
+.header__location-text {
+    font-family: $font-stack-2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.78125vw;
+    line-height: 0.885417vw;
+
+    color: $color-dark-gray;
+}
+
+.header__time-text {
+    font-family: $font-stack-1;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: $color-title;
+}
+
+.header__calendar-day-text {
+    font-family: $font-stack-1;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: $color-gray;
+}
+
+.header__phone-link {
+    font-family: $font-stack-1;
+    font-weight: bold;
+    font-size: 0.9375vw;
+
+    color: $color-dark-gray;
+}
+
+.header__button {
+    font-family: $font-stack-3;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: #ffffff;
+
+    background: $color-accent;
+    border-radius: 3px;
+
+    cursor: pointer;
+}
