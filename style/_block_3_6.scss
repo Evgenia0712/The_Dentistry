@@ -12,10 +12,11 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10% 20% 1fr;
+    padding-left: 5vw;
 }
 
 .block-3__text-info {
-    width: 20vw;
+    width: 25vw;
 }
 
 .block-3__wr-cards {
@@ -44,11 +45,13 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 25% 1fr;
+    width: 100vw;
+    padding-left: 5vw;
 }
 
 .part-2 {
     display: grid;
-    grid-template-columns: 45% 1fr;
+    grid-template-columns: 35% 1fr;
     column-gap: 5vw;
 
     .part-2__information-text {

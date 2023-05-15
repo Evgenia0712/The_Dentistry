@@ -1,26 +1,31 @@
-.block-7__title{
-    padding-left: 3rem;
+.main_block7 {
+    padding-left: 5vw;
+}
+
+.block-7__title {
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
 }
-.block-7__text-info{
-    padding-left: 3rem;
+
+.block-7__text-info {
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    width: 28vw;
 }
 
-.block-7__wr-cards-info{
+.block-7__wr-cards-info {
     padding: 5%;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
 }
-.block-7__cards-info{
+
+.block-7__cards-info {
     display: flex;
     justify-content: space-around;
     max-width: 30vw;
@@ -29,46 +34,50 @@
     border-radius: 4px;
 }
 
-.cards-info__text{
+.cards-info__text {
     padding: 3rem;
     font-style: normal;
-    }
-.cards-info__name{
+}
+
+.cards-info__name {
     font-weight: 700;
     font-size: 36px;
     line-height: 44px;
 }
-.cards-info__description{
+
+.cards-info__description {
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
 }
-.cards-info__img{
-width: 10vw;
+
+.cards-info__img {
+    width: 10vw;
 }
 
-.main__block-8{
+.main__block-8 {
     margin: 0;
-    padding: 0;
+    padding-left: 5vw;
     background: #ffffff;
-    }
-    
-    .block-8__title{
-        padding: 3rem;
-        margin: auto;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 3rem;
-        line-height: 59px;
-        color: #12354B;
-    }
-    .block-8__wr-rewards{
-        padding: 3rem;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-        align-content: space-around;
-    }
-    
-    .rewards__picture{
-        width: 30vw;
-    }
+}
+
+.block-8__title {
+    padding: 3rem;
+    margin: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 59px;
+    color: #12354B;
+}
+
+.block-8__wr-rewards {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    align-content: space-around;
+}
+
+.rewards__picture {
+    width: 30vw;
+}
