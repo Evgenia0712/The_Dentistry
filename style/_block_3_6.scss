@@ -1,9 +1,9 @@
 .cards {
     background-color: $clr-bg-bl-4-6;
     display: grid;
-    grid-template-columns: 65%;
-    grid-template-rows: 62% 1fr;
-    row-gap: 1vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    row-gap: 0.5vw; //Было 1vh
     text-align: center;
     border-radius: 5px;
 }
@@ -27,11 +27,6 @@
     column-gap: 2vw;
     row-gap: 2vh;
     padding-left: 10vw;
-
-    .block-3__cards {
-        padding-top: 2vh;
-        padding-left: 3vw;
-    }
 }
 
 .block-3__cards:nth-child(6) {
@@ -57,6 +52,13 @@
     .cards__img_active {
         display: inline;
     }
+}
+
+//Выравнивание изображения по центру
+.cards__wr-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .block-6 {

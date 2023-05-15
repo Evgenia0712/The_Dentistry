@@ -267,9 +267,9 @@
 .cards {
   background-color: #fbfbfb;
   display: grid;
-  grid-template-columns: 65%;
-  grid-template-rows: 62% 1fr;
-  row-gap: 1vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 1fr;
+  row-gap: 0.5vw;
   text-align: center;
   border-radius: 5px;
 }
@@ -295,10 +295,6 @@
   row-gap: 2vh;
   padding-left: 10vw;
 }
-.block-3__wr-cards .block-3__cards {
-  padding-top: 2vh;
-  padding-left: 3vw;
-}
 
 .block-3__cards:nth-child(6) {
   grid-column: 2/3;
@@ -320,6 +316,12 @@
 }
 .block-3__cards:hover .cards__img_active {
   display: inline;
+}
+
+.cards__wr-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .block-6 {
