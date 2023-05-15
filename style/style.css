@@ -809,4 +809,51 @@ body {
   font-family: Lato, sans-serif;
   font-weight: normal;
   font-size: 2.5vw;
+}
+
+.nav__link {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #b2b2b2;
+}
+
+.header__location-text {
+  font-family: Arimo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  line-height: 0.885417vw;
+  color: #414141;
+}
+
+.header__time-text {
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #12354b;
+}
+
+.header__calendar-day-text {
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #737373;
+}
+
+.header__phone-link {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 0.9375vw;
+  color: #414141;
+}
+
+.header__button {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #ffffff;
+  background: #38bcea;
+  border-radius: 3px;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
