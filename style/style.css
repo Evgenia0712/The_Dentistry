@@ -259,7 +259,7 @@
 }
 
 .cards {
-  background-color: rgb(221, 218, 218);
+  background-color: #fbfbfb;
   display: grid;
   grid-template-columns: 65%;
   grid-template-rows: 62% 1fr;
