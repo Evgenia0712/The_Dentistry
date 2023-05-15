@@ -19,3 +19,39 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 15vh 1fr 15vh;
 }
+
+.title {
+    font-size: 2.5vw;
+    line-height: 3.02083vw;
+
+    font-family: $font-stack-1;
+    font-weight: bold;
+    color: $color-title;
+}
+
+[class*="__text-info"], 
+.block-2__text, 
+.part-2__information-text, 
+.services__item, 
+.part-2__information-text, 
+.details__text, 
+.items__text, 
+.cards-info__description {
+    font-family: $font-stack-2;
+    font-weight: normal;
+    font-size: 1.0417vw;
+}
+
+.block-3__text-info, 
+.block-6__text-info, 
+.block-7__text-info, 
+.items__text {
+    font-size: 1.25vw;
+}
+
+.items__title, 
+.cards-info__name {
+    font-family: $font-stack-1;
+    font-weight: bold;
+    font-size: 1.875vw;
+}

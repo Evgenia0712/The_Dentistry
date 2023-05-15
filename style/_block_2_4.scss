@@ -27,7 +27,7 @@
 .block-2__text-info,
 .block-2__text {
   font-size: 20px;
-  color: #737373;
+  color: $color-gray;
 }
 
 .block-2__button {
@@ -35,7 +35,7 @@
   height: 7vh;
   border: none;
   color: #fff;
-  background: #38bcea;
+  background: $color-accent;
 }
 
 .block-2__more-details {
@@ -69,8 +69,8 @@
 
 .block-2__details .details__text {
   width: 13vw;
-  color: #737373;
-  font-size: 18px;
+  color: $color-gray;
+  font-size: 0.9375vw;
 }
 
 .block-2__details .details__text:first-child {
@@ -83,12 +83,12 @@
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
-  background-color: #fbfbfb;
+  background-color: $clr-bg-bl-4-6;
 }
 
 .block-4__title {
   margin-left: 6.5vw;
-  color: #12354b;
+  color: $color-title;
 }
 
 .block-4__wr-items {
@@ -110,10 +110,10 @@
 }
 
 .block-4__items .items__figure {
-  color: #38bcea;
+  color: $color-accent;
 }
 
 .block-4__items .items__title,
 .block-4__items .items__text {
-  color: #262626;
+  color: $color-almost-black;
 }
