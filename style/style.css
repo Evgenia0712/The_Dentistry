@@ -734,4 +734,12 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 15vh 1fr 15vh;
+}
+
+.title {
+  font-size: 2.5vw;
+  line-height: 3.02083vw;
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  color: #12354b;
 }/*# sourceMappingURL=style.css.map */
