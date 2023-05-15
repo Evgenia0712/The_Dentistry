@@ -839,4 +839,11 @@ body {
   font-weight: normal;
   font-size: 0.78125vw;
   color: #737373;
+}
+
+.header__phone-link {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 0.9375vw;
+  color: #414141;
 }/*# sourceMappingURL=style.css.map */
