@@ -175,6 +175,11 @@
   border: none;
   color: #fff;
   background: #38bcea;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 1.0417vw;
 }
 
 .block-2__more-details {
