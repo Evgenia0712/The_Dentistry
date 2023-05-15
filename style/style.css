@@ -762,4 +762,11 @@ body {
 .block-7__text-info,
 .items__text {
   font-size: 1.25vw;
+}
+
+.items__title,
+.cards-info__name {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 1.875vw;
 }/*# sourceMappingURL=style.css.map */

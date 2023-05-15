@@ -48,3 +48,10 @@ body {
 .items__text {
     font-size: 1.25vw;
 }
+
+.items__title, 
+.cards-info__name {
+    font-family: $font-stack-1;
+    font-weight: bold;
+    font-size: 1.875vw;
+}
