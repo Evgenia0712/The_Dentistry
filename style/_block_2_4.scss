@@ -36,6 +36,13 @@
   border: none;
   color: #fff;
   background: $color-accent;
+
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: $font-stack-3;
+  font-weight: normal;
+
+  font-size: 1.0417vw;
 }
 
 .block-2__more-details {
@@ -107,6 +114,7 @@
   flex-flow: column wrap;
   justify-content: center;
   background-color: #fff;
+  border-radius: 4px;
 }
 
 .block-4__items .items__figure {
