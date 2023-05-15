@@ -76,3 +76,13 @@ body {
 
     color: $color-light-gray;
 }
+
+.header__location-text {
+    font-family: $font-stack-2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.78125vw;
+    line-height: 0.885417vw;
+
+    color: $color-dark-gray;
+}

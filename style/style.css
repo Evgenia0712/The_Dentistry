@@ -816,4 +816,13 @@ body {
   font-weight: normal;
   font-size: 0.78125vw;
   color: #b2b2b2;
+}
+
+.header__location-text {
+  font-family: Arimo, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  line-height: 0.885417vw;
+  color: #414141;
 }/*# sourceMappingURL=style.css.map */
