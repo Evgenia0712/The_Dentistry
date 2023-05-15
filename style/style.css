@@ -247,6 +247,7 @@
   flex-flow: column wrap;
   justify-content: center;
   background-color: #fff;
+  border-radius: 4px;
 }
 
 .block-4__items .items__figure {
@@ -265,6 +266,7 @@
   grid-template-rows: 62% 1fr;
   row-gap: 1vh;
   text-align: center;
+  border-radius: 5px;
 }
 
 .block-3 {
