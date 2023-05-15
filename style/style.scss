@@ -1,0 +1,21 @@
+@import './vars';
+@import './fonts';
+@import './header';
+@import './block_2_4';
+@import './block_3_6';
+@import './block_5_9';
+@import './block_7_8';
+@import './footer';
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15vh 1fr 15vh;
+}
