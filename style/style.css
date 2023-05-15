@@ -283,6 +283,8 @@
 }
 
 .block-3__text-info {
+  padding-top: 2vh;
+  padding-bottom: 5vh;
   width: 25vw;
 }
 
