@@ -34,8 +34,17 @@ body {
 .part-2__information-text, 
 .services__item, 
 .part-2__information-text, 
+.details__text, 
+.items__text, 
 .cards-info__description {
     font-family: $font-stack-2;
     font-weight: normal;
     font-size: 1.0417vw;
+}
+
+.block-3__text-info, 
+.block-6__text-info, 
+.block-7__text-info, 
+.items__text {
+    font-size: 1.25vw;
 }
