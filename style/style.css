@@ -36,19 +36,11 @@
   justify-content: start;
   align-items: center;
   margin: auto;
-  border: 1px solid black;
 }
 
 .header_social {
   display: flex;
   justify-content: space-around;
-  border: 1px solid black;
-  padding: 5px 5px;
-}
-
-.social__socials {
-  margin-right: 2px;
-  padding: 8px 10px;
 }
 
 .header__nav {
@@ -282,10 +274,7 @@
   grid-template-rows: 10% 20% 1fr;
 }
 
-.main__block-3 {
-  margin: 0 1vw 0 1vw;
-}
-.main__block-3 .block-3__text-info {
+.block-3__text-info {
   width: 20vw;
 }
 
@@ -343,10 +332,7 @@
   max-width: 31vw;
 }
 
-.main__block-6 {
-  margin: 0 1vw 0 1vw;
-}
-.main__block-6 .block-6__text-info {
+.block-6__text-info {
   width: 22vw;
 }
 
