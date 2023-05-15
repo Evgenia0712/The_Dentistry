@@ -210,7 +210,7 @@
 .block-2__details .details__text {
   width: 13vw;
   color: #737373;
-  font-size: 18px;
+  font-size: 0.9375vw;
 }
 
 .block-2__details .details__text:first-child {
@@ -749,8 +749,17 @@ body {
 .part-2__information-text,
 .services__item,
 .part-2__information-text,
+.details__text,
+.items__text,
 .cards-info__description {
   font-family: Arimo, sans-serif;
   font-weight: normal;
   font-size: 1.0417vw;
+}
+
+.block-3__text-info,
+.block-6__text-info,
+.block-7__text-info,
+.items__text {
+  font-size: 1.25vw;
 }/*# sourceMappingURL=style.css.map */
