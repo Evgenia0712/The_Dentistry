@@ -304,8 +304,22 @@
   grid-column: 2/3;
 }
 
+.block-3__cards .cards__img_active {
+  display: none;
+}
+
 .block-3__cards:hover {
-  background-color: rgb(110, 194, 243);
+  background-color: #38bcea;
+  cursor: pointer;
+}
+.block-3__cards:hover .cards__wr-title {
+  color: #ffffff;
+}
+.block-3__cards:hover .cards__img {
+  display: none;
+}
+.block-3__cards:hover .cards__img_active {
+  display: inline;
 }
 
 .block-6 {

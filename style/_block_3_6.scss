@@ -38,8 +38,25 @@
     grid-column: 2/3;
 }
 
+
+//Смена картинки при наведении
+.block-3__cards .cards__img_active {
+    display: none;
+}
+
 .block-3__cards:hover {
-    background-color: rgb(110, 194, 243);
+    background-color: $color-accent;
+    cursor: pointer;
+    .cards__wr-title {
+        color: #ffffff;
+    }
+    
+    .cards__img {
+        display: none;
+    }
+    .cards__img_active {
+        display: inline;
+    }
 }
 
 .block-6 {
