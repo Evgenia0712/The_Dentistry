@@ -86,3 +86,19 @@ body {
 
     color: $color-dark-gray;
 }
+
+.header__time-text {
+    font-family: $font-stack-1;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: $color-title;
+}
+
+.header__calendar-day-text {
+    font-family: $font-stack-1;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: $color-gray;
+}

@@ -825,4 +825,18 @@ body {
   font-size: 0.78125vw;
   line-height: 0.885417vw;
   color: #414141;
+}
+
+.header__time-text {
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #12354b;
+}
+
+.header__calendar-day-text {
+  font-family: Lato, sans-serif;
+  font-weight: normal;
+  font-size: 0.78125vw;
+  color: #737373;
 }/*# sourceMappingURL=style.css.map */
