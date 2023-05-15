@@ -742,4 +742,15 @@ body {
   font-family: Lato, sans-serif;
   font-weight: bold;
   color: #12354b;
+}
+
+[class*=__text-info],
+.block-2__text,
+.part-2__information-text,
+.services__item,
+.part-2__information-text,
+.cards-info__description {
+  font-family: Arimo, sans-serif;
+  font-weight: normal;
+  font-size: 1.0417vw;
 }/*# sourceMappingURL=style.css.map */
