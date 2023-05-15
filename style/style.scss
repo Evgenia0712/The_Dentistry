@@ -68,3 +68,11 @@ body {
     font-weight: normal;
     font-size: 2.5vw;
 }
+
+.nav__link {
+    font-family: $font-stack-3;
+    font-weight: normal;
+    font-size: 0.78125vw;
+
+    color: $color-light-gray;
+}
