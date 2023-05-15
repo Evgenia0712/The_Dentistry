@@ -300,6 +300,18 @@
   padding-left: 3vw;
 }
 
+.cards__wr-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+}
+
+.cards__wr-title {
+  display: flex;
+  justify-content: center;
+}
+
 .block-3__cards:nth-child(6) {
   grid-column: 2/3;
 }
