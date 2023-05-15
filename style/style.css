@@ -775,4 +775,11 @@ body {
   font-family: Lato, sans-serif;
   font-weight: bold;
   font-size: 1.875vw;
+}
+
+.cards__wr-title {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  font-size: 1.35417vw;
+  color: #414141;
 }/*# sourceMappingURL=style.css.map */
