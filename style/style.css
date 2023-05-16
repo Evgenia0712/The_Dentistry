@@ -246,7 +246,7 @@
 
 .block-4__items {
   width: 26vw;
-  height: 20vw;
+  height: 25vw;
   padding-left: 2vw;
   display: flex;
   flex-flow: column wrap;
@@ -278,7 +278,7 @@
   height: 70vh;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 10% 20% 1fr;
+  grid-template-rows: 15% 20% 1fr;
   padding-left: 5vw;
 }
 
@@ -327,7 +327,7 @@
 .block-6 {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 25% 1fr;
+  grid-template-rows: 30% 1fr;
   width: 100vw;
   padding-left: 5vw;
 }
@@ -693,13 +693,14 @@
 }
 
 .rewards__picture {
-  width: 30vw;
+  width: 27vw;
 }
 
 .footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-left: 5vw;
 }
 
 .socials {
