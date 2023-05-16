@@ -12,7 +12,7 @@
     height: 70vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 20% 1fr;
+    grid-template-rows: 15% 20% 1fr;
     padding-left: 5vw;
 }
 
@@ -42,13 +42,15 @@
 .block-3__cards:hover {
     background-color: $color-accent;
     cursor: pointer;
+
     .cards__wr-title {
         color: #ffffff;
     }
-    
+
     .cards__img {
         display: none;
     }
+
     .cards__img_active {
         display: inline;
     }
@@ -64,7 +66,7 @@
 .block-6 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 25% 1fr;
+    grid-template-rows: 30% 1fr;
     width: 100vw;
     padding-left: 5vw;
 }
